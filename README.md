@@ -1,1 +1,1 @@
-# rnn1
+# Recurrent Neural Network for DNA Sequence Classification
