@@ -16,17 +16,17 @@ import os
 import pydot
 import graphviz
 
-EPCOHS = 2 
+EPCOHS = 2 #Increase epochs (2 set for demo)
 BATCH_SIZE = 500 
 INPUT_DIM = 4 
 OUTPUT_DIM = 50 
 RNN_HIDDEN_DIM = 62
 DROPOUT_RATIO = 0.2
 MAXLEN = 150 
-checkpoint_dir ='E:/3/Package/ML'
+checkpoint_dir ='dataset'
 os.path.exists(checkpoint_dir)
 
-input_file = 'E:/3/Package/ML/cnn/data.csv'
+input_file = 'dataset/data.csv'
 
 def letter_to_index(letter):
     _alphabet = 'ATGC'
